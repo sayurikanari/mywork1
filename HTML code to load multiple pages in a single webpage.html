@@ -1,0 +1,42 @@
+<body class="bd1">
+    <div id="demopage">
+        <h1>Responsive Tabs</h1>
+        <p id="menu1">
+            <a href="demo1.html" class="active">1. Responsive Tabs</a>
+            <a href="demo2.html">2. Multiple</a>
+            <a href="demo3.html">3. Ajax Tabs</a>
+            <a href="demo4.html">4. Dynamic</a>
+        </p>
+        <div class="container1">
+            <ul class="rtabs">
+                <li class=""><a href="#view1">Responsive Tabs</a></li>
+                <li class="selected"><a href="#view2">Multiple or nested</a></li>
+                <li class=""><a href="#view3"><img src="content/pre-icon.png" alt=""> Bookmark</a></li>
+            </ul>
+            <div class="panel-container">
+                <div id="view1" class="inactive" style="display: none;">
+                    <h2>Responsive Tabs</h2>
+                    <p>&nbsp;</p>
+                    <p>Resize window to smaller size and you will see the tabs layout in smaller devices.</p>
+                    <p>&nbsp;</p>
+                    <img src="content/tab-1.jpg" alt="" style="max-width:100%;">
+                </div>
+                <div id="view2" class="" style="display: block;">
+                    <h2>Multiple Tabs</h2>
+                    <p>You can have multiple Responsive Tabs on the same page, with only one copy of the CSS and JavaScript files.</p>
+                    <p><strong>Nested tabs</strong> are also supported.</p>
+                
+                </div>
+                <div id="view3" class="inactive" style="display: none;">
+                    <h2>Bookmark Support</h2>
+                    <p>Tab can also be opened via a bookmark anchor located anywhere on the page.</p>
+                    <p id="mark3" style="background:#FFC; border:1px dotted red;padding:8px;">This is a paragraph with id="mark3".</p>
+                    <p>By clicking the bookmark link <i>mark3</i> below, you will navigate to the paragraph above even if this panel is hidden before clicking the bookmark.</p>
+                </div>
+            </div>
+            <br>
+            <p>Test bookmarks: <a href="#view2" data-scroll="false">view2</a> &nbsp; <a href="#mark3">mark3</a></p>
+        </div>
+    </div>
+
+</body>
